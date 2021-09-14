@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: rgb(5,5,5);
+  background: linear-gradient(90deg, rgba(5,5,5,1) 0%, rgba(1,1,1,1) 50%, rgb(23, 34, 36) 100%, rgba(236,236,236,1) 100%, rgba(235,242,244,1) 100%); 
+
+  
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  border: 3px solid white;
+  box-shadow: 0 0 20px white;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 24px;
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+
+}
+
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.social img {
+  width: 33px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.links-list {
+  list-style: none;
+  margin-top: 20px;
+
+  
+}
+
+.links-list li {
+  margin: 20px 20px;
+  
+}
+
+.links-list li a { 
+  display: block;
+  text-decoration: none;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  color: #244046;
+  font-weight: bold;
+}
+
+.links-list li a span {
+  display: block;
+  color: grey;
+  margin-top: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer-tree img {
+  width: 40px;
+}
