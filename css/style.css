@@ -23,6 +23,9 @@ body {
   width: 80px;
   border: 3px solid white;
   box-shadow: 0 0 20px white;
+  animation-name: minhaAnimaçao;
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
 }
 
 h1 {
@@ -53,17 +56,22 @@ h2 {
   width: 33px;
   border-radius: 50%;
   margin-bottom: 10px;
+  animation-name: minhaAnimaçao;
+  animation-duration: 1000ms;
+  animation-iteration-count: 2;
 }
 
 .links-list {
   list-style: none;
   margin-top: 20px;
+  
 
   
 }
 
 .links-list li {
   margin: 20px 20px;
+  
   
 }
 
@@ -73,8 +81,14 @@ h2 {
   background: white;
   padding: 15px 20px;
   border-radius: 20px;
-  color: #244046;
+  color: rgb(39, 68, 47);
   font-weight: bold;
+  border: 3px solid white;
+  box-shadow: 0 0 20px rgb(39, 68, 47);
+}
+
+.links-list li a:hover {
+  background: rgb(238, 234, 234);
 }
 
 .links-list li a span {
@@ -92,4 +106,30 @@ h2 {
 
 .footer-tree img {
   width: 40px;
+  border-radius: 50%;
+
+  
+  animation-name: minhaAnimaçao;
+  animation-duration: 1000ms;
+  animation-iteration-count: 3;
+}
+
+
+
+@keyframes minhaAnimaçao {
+  0% {
+    
+    
+  }
+  50% {
+    
+    box-shadow: 0 0 20px rgb(39, 68, 47);
+    border-radius: 50%;
+  }
+  100% {
+    
+
+    
+    transform: rotate(360deg);
+  }
 }
